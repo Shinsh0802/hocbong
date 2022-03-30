@@ -1,0 +1,23 @@
+.btn-info {
+  display: block;
+  margin: 0 10px 10px 10px;
+  justify-content: space-around;
+  text-align: center;
+  border-style: inset;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  border-style: inset;
+  border-radius: 5px;
+}
+.bread-active{
+color: darkgray;
+text-decoration: none;
+}
+.bread-active:hover{
+color: darkgray;
+}

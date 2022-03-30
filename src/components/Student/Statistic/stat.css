@@ -1,0 +1,8 @@
+#listpage{
+    padding: 0 15%;
+}
+@media only screen and (max-width: 768px) {
+    #listpage{
+        padding: 0 0;
+    }
+}

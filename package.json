@@ -1,0 +1,77 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "@hookform/resolvers": "^2.8.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "apollo-client": "^1.9.3",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.0.2",
+    "date-fns": "^2.25.0",
+    "graphql": "^15.5.2",
+    "jwt-decode": "^3.1.2",
+    "react": "^17.0.2",
+    "react-apollo": "^3.1.5",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.0",
+    "react-icons": "^4.3.1",
+    "react-paginate": "^8.1.0",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-toastify": "^8.1.0",
+    "redux-thunk": "^2.4.1",
+    "slate": "^0.72.3",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.65.3",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "wdioTest": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.11.1",
+    "@wdio/dot-reporter": "^7.10.1",
+    "@wdio/local-runner": "^7.11.1",
+    "@wdio/mocha-framework": "^7.11.1",
+    "@wdio/selenium-standalone-service": "^7.10.1",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "typescript": "^4.4.3",
+    "webdriverio": "^7.11.1"
+  }
+}

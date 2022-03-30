@@ -1,0 +1,11 @@
+.btn-info {
+  display: block;
+  margin: 0 10px 10px 10px;
+  justify-content: space-around;
+  text-align: center;
+  border-style: inset;
+  border-radius: 5px;
+}
+.accordion-button{
+  box-shadow: none !important;
+}

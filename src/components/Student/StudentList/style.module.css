@@ -1,0 +1,18 @@
+#listTable{
+    padding: 0 5%;
+}
+.filterBox > *{
+    margin-right: 10px;
+}
+.filterBox{
+    justify-content: center;
+}
+.checkBox{
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+@media only screen and (max-width: 768px) {
+    #listpage{
+        padding: 0 0;
+    }
+}

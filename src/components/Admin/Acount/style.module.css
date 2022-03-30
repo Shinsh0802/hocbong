@@ -1,0 +1,53 @@
+.table td {
+  padding: 0 30px;
+}
+.table {
+  box-sizing: border-box;
+  width: 100%;
+  border: gray solid 1px;
+  margin: 10px auto;
+}
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.thead td {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-weight: bold;
+}
+.filterBox > * {
+  margin-right: 10px;
+}
+.filterBox {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.checkBox {
+  margin: 0 10px;
+  transform: scale(1.5);
+}
+.edit-button {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+}
+.edit-button:hover {
+  background-color: aliceblue !important;
+}
+.edit-bar {
+  box-shadow: 0px 2px 2px 0px;
+  margin-bottom: 15px;
+}
+.form {
+  border: 1px ridge black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .filterBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

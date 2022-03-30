@@ -1,0 +1,16 @@
+.dark {
+    display: center;
+    /* margin: 0 10px 10px 10px; */
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 1px;
+    height: 57px;
+    border: 1px rgb(206, 206, 206) solid;
+  }
+  
+  .container {
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    display: block;
+  }

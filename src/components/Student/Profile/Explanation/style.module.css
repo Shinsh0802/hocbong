@@ -1,0 +1,12 @@
+.edit{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.line{
+    margin-top: 20px;
+    border-top: 1px solid gray;
+}
+.input{
+    width: 100%;
+}

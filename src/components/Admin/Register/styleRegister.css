@@ -1,0 +1,23 @@
+.bg-myRed {
+  background-color: crimson;
+}
+
+.wrapper-footer {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.text-muted {
+  color: red !important;
+}
+@media screen and (max-width: 46.1875em) {
+  .register {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,43 @@
+.top{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+}
+.topRight{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.select{
+    height: 40px;
+
+}
+.titleDropdown{
+    border: none;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.titleDropdown:focus-visible{
+    outline: 0;
+}
+.titleDropdown option{
+    font-size: 20px;
+    min-height: 50px;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .top{
+        display: flex;
+    }
+    .titleDropdown{
+        font-size: 30px;
+    }
+}

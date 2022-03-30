@@ -1,0 +1,31 @@
+#mobile-sidebar {
+  display: none;
+}
+#sidebar {
+  display: block;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  width: 200px;
+  background-color: rgb(240, 240, 240);
+}
+#sidebar .sidebar-item:hover {
+  background-color: white;
+}
+#sidebar .sidebar-item {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 10px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+}
+.sidebar-icon{
+  margin-right: 5px;
+}

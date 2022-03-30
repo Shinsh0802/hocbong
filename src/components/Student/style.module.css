@@ -1,0 +1,11 @@
+.profileContent{
+    margin-left: 200px;
+    padding: 0 10%;
+}
+@media screen and (max-width: 767px) {
+    .profileContent{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 70px 0;
+    }
+}
